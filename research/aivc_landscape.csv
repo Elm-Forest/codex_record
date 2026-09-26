@@ -1,0 +1,28 @@
+category,name,year,method_or_asset,primary_reference,code_or_data,status_note
+paper,DVC,2019,flow-based motion + learned residual,https://arxiv.org/abs/1812.00101,https://github.com/ZhihaoHu/PyTorchVideoCompression,early open implementation
+paper,HLVC,2020,deep hierarchical learned video codec,https://arxiv.org/abs/2003.01966,https://github.com/RenYang-home/HLVC,open implementation
+paper,RLVC,2020,recurrent learned video compression,https://arxiv.org/abs/2006.15864,https://github.com/RenYang-home/RLVC,open implementation
+paper,ELF-VC,2021,feature-space learned video codec,https://arxiv.org/abs/2104.14335,https://github.com/menushen/ELF-VC,feature-domain coding
+paper,DCVC,2021,deep contextual video compression,https://arxiv.org/abs/2109.15009,https://github.com/microsoft/DCVC,major maintained family
+paper,DCVC-HEM,2022,hybrid entropy model,https://arxiv.org/abs/2207.08388,https://github.com/microsoft/DCVC,context/entropy improvement
+paper,DCVC-TCM,2022,temporal context mining,https://arxiv.org/abs/2211.12117,https://github.com/microsoft/DCVC,temporal prior design
+paper,DCVC-FM,2023,feature modulation,https://arxiv.org/abs/2308.03131,https://github.com/microsoft/DCVC,variable-rate family
+paper,DCVC-RT,2023,real-time deep video compression,https://arxiv.org/abs/2305.02797,https://github.com/microsoft/DCVC,latency-oriented
+paper,DCVC-DC,2024,deep contextual video compression with diverse contexts,https://arxiv.org/abs/2404.19111,https://github.com/microsoft/DCVC,check exact release tag
+paper,FVC,2021,feature-space video compression,https://arxiv.org/abs/2105.02649,https://github.com/BruceChen7/FVC,open implementation
+paper,SSF,2020,scale-space flow for efficient video compression,https://arxiv.org/abs/2003.11912,,motion representation
+paper,MMVC,2021,multi-reference motion compression,https://arxiv.org/abs/2106.09882,,multi-frame prediction
+paper,NeRV,2021,implicit neural video representation,https://arxiv.org/abs/2110.13903,https://github.com/haochen-rye/NeRV,per-video representation
+paper,HNeRV,2023,hybrid neural video representation,https://arxiv.org/abs/2304.02633,https://github.com/haochen-rye/HNeRV,per-video representation
+paper,HiNeRV,2023,high-fidelity neural representation,https://arxiv.org/abs/2306.09818,https://github.com/PKU-YuanGroup/HiNeRV,per-video representation
+paper,DiffVC,2023,diffusion-based video compression,https://arxiv.org/abs/2308.08445,,generative low-rate direction
+standard,VVC,H.266,block-hybrid video coding,https://www.itu.int/rec/T-REC-H.266,enables fair anchor
+standard,MPEG-NNR,2020,neural network compression,https://mpeg.chiariglione.org/standards/mpeg-7/neural-network-compression,adjacent standard
+benchmark,UVG,2018,7 4K raw sequences,https://ultravideo.fi/#testsequences,https://ultravideo.fi/#testsequences,common learned codec test set
+benchmark,HEVC-C,2013,Class B-E test sequences,https://github.com/InterDigitalInc/CompressAI/tree/master/examples,obtain original licensing separately
+benchmark,MCL-JCV,2016,30 1080p sequences,https://www.epfl.ch/labs/mmspg/downloads/mcl-jcv-dataset/,public research dataset
+benchmark,Vimeo-90K,2019,triplet/septuplet training data,http://toflow.csail.mit.edu/,license/check availability
+benchmark,REDS,2019,high-resolution video restoration data,https://seungjunnah.github.io/Datasets/reds.html,license/check availability
+benchmark,BVI-DVC,2018,video compression dataset,https://www.bristol.ac.uk/engineering/research/vision/datasets/,contact/license
+competition,CLIC,2019-2024,learned image/video compression challenge,https://compression.cc/,track names change by year
+competition,MMSP-CVPR-Grand-Challenge,2024,video compression/challenges vary,https://mmspg.epfl.ch/,verify edition task
